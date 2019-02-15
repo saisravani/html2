@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>my webpage</title>
+<head>
+<body id="b1" style background-color:#990099>
+<style>
+#b1{
+background-color:#20AAFF;
+}
+#tb{
+margin: 0;
+    padding: 5px;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: solid 1px #20AF26;
+    background-color: #20AF26;
+    font-weight: 400;
+    color: #fff;
+}
+#d2{
+background-color:#008899;
+ text-align:left;
+ float:right;
+ padding-right:400px;
+ height:600px;
+}
+#d1{
+background-color:#008899;
+ text-align:left;
+ float:left;
+ height:600px;
+}
+</style>
+<marquee behaviour="scroll" direction="right"><h1> my webpage </h1></marquee><div id="d1">
+<img src="/home/student/Downloads/index.jpeg" width="140" height="140"/>
+
+<br><p><font color=#992299>hi this is ost lab hi this is ost lab nb bjbj jbjbgj</font></p>
+<h1><font style="font-family:'Trebuchet MS'; font-size:12px; font-weight:bold">Students</font></h1>
+<a href="www.google.com">click here</a>
+</div>
+<div id="d2">
+<table border="0.5px" id="tb">
+<th>colors</th>
+<tr><td>red</td></tr>
+<tr><td>blue</td></tr>
+<tr><td>green</td></tr>
+</table>
+<ol>
+<li><a href="">item1</a></li>
+<li><a href="">item2</a></li>
+</ol>
+</div>
+<form>
+fill the form
+<table id="tb1">
+<tr><td><input type="text" name="fn" placeholder="first"><br></td></tr>
+<tr><td><input type="email" name="fn1" placeholder="last"><br></td></tr>
+<tr><td><input type="date" name="fn2"><br></td></tr>
+<tr><td><select>
+<option>cse</option>
+<option>ece</option>
+<option>eee</option>
+</select></td></tr>
+<tr><td>male<input type="radio" name="r1"><br></td></tr>
+<tr><td>female<input type="radio" name="r1"></td></tr>
+<tr><td><input type="submit" name="sub"></td></tr>
+</table>
+</form>
